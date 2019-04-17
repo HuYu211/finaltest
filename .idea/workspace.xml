@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b1e006a-4e00-4342-ab47-650417431773" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/memory_card/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distiview/card/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/distiview/card/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distiview/swipeout/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/distiview/swipeout/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/accordion/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/actionsheet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/actionsheet/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/actionsheet/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/actionsheet/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/alert/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/alert/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/alert/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/alert/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/animation-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/animation-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/animation-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/animation-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/avatar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/avatar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/avatar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/avatar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/backdrop/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/backdrop/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/backdrop/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/backdrop/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/badge/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/badge/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/badge/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/badge/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/barcode/barcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/barcode/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/barcode/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/barcode/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/barcode/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/button/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/button/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/button/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/calendar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/calendar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/calendar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/calendar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/card/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/card/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/card/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/card/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cascader/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cascader/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cascader/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cascader/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/cell/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/checkbox/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/circle/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/circle/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/circle/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/circle/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/col/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/col/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/col/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/col/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/countdown/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/countup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/dialog/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/dialog/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/dialog/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/dialog/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/divider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/divider/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/divider/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/divider/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/fab-button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/fab-button/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/fab-button/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/fab-button/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/filterbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/filterbar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/filterbar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/filterbar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/floating-button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/floating-button/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/floating-button/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/floating-button/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/gallery/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/gallery/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/gallery/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/gallery/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grid/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grid/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grid/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grid/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grids/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grids/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grids/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/grids/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/arrayTreeFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/baseBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/baseComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/checkIPhoneX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/classNames.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/computedBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/funcBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/gestures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/isEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/mergeOptionsToData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/relationsBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/safeSetDataBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/shallowEqual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/helpers/styleToCssString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/icon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/icon/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/icon/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/icon/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/image/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/image/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/image/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/image/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input-number/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input-number/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input-number/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/input/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/keyboard/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/keyboard/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/keyboard/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/keyboard/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/loading/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/loading/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/loading/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/loading/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/media/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/media/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/media/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/media/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/navbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/navbar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/navbar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/navbar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notice-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notice-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notice-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notice-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notification/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notification/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notification/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/notification/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/pagination/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/pagination/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/pagination/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/pagination/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popover/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popover/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popover/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popover/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popup/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popup/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/popup/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/progress/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/progress/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/progress/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/progress/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/prompt/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/prompt/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/prompt/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/prompt/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/8BitByte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/BitBuffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/ErrorCorrectLevel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/LICENSE-qrcode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/Polynomial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/QRCode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/RSBlock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/mode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/qrcode/qr.js/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/radio/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/rater/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/rater/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/rater/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/rater/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/refresher/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/refresher/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/refresher/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/refresher/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/result/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/result/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/result/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/result/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/row/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/row/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/row/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/row/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/search-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/search-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/search-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/search-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/segmented-control/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/segmented-control/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/segmented-control/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/segmented-control/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/select/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/select/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/select/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/select/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/selectable/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/selectable/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/selectable/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/selectable/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-avatar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-avatar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-avatar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-avatar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-paragraph/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-paragraph/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-paragraph/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton-paragraph/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/skeleton/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/slider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/slider/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/slider/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/slider/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/spin/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/spin/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/spin/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/spin/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/step/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/step/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/step/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/step/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/steps/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/steps/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/steps/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/steps/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/sticky/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/fn.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/button.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/common.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/hairline.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/setArrow.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/setBorder.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/setOnepx.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/text.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/mixin/transition.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/reset.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/variable/color.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/variable/global.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/base/variable/util.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/styles/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/swipe-action/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/switch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/switch/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/switch/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/switch/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tab/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tab/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tab/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tab/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabbar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabs/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabs/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tabs/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tag/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tag/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tag/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/tag/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/textarea/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/textarea/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/textarea/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/textarea/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/locales/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/locales/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/locales/zh_CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeago/locales/zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/timeline/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toast/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toast/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toast/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toast/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toptips/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toptips/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toptips/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/toptips/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/upload/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/upload/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/upload/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/upload/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/vcode/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/vcode/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/vcode/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/vcode/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/white-space/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/white-space/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/white-space/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/white-space/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/wing-blank/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/wing-blank/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/wing-blank/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/distwux/wing-blank/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/info/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/info/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/info/info.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/info/info.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/info/info.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/info/info.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/post/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/post/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/post/post.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/post/post.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/post/post.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/post/post.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/test/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/test/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/test/test.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/test/test.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/test/test.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/test/test.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/welcome/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/welcome/welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/welcome/welcome.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/welcome/welcome.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/pages/welcome/welcome.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/pages/welcome/welcome.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_card/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/memory_card/project.config.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/notebook$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1555475560251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/memory_card$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1555515303486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/notebook$notebook.coverage" NAME="notebook Coverage Results" MODIFIED="1554911664999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/api/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/DB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/libs/UploadService.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="19" />
+              <folding>
+                <element signature="e#24#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/upload/upload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/upload/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/Card.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="e#16#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/base_setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/libs/UrlManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/memory_card" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/models/Oauth_member_bind.py" />
+        <option value="$PROJECT_DIR$/memory_card/pages/post/post.wxml" />
+        <option value="$PROJECT_DIR$/controllers/api/member.py" />
+        <option value="$PROJECT_DIR$/memory_card/app.js" />
+        <option value="$PROJECT_DIR$/config/DB.py" />
+        <option value="$PROJECT_DIR$/memory_card/project.config.json" />
+        <option value="$PROJECT_DIR$/common/models/Member.py" />
+        <option value="$PROJECT_DIR$/memory_card/pages/post/post.js" />
+        <option value="$PROJECT_DIR$/controllers/api/getToken.py" />
+        <option value="$PROJECT_DIR$/common/libs/UrlManager.py" />
+        <option value="$PROJECT_DIR$/config/base_setting.py" />
+        <option value="$PROJECT_DIR$/common/libs/UploadService.py" />
+        <option value="$PROJECT_DIR$/controllers/upload/upload.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/common/models/Card.py" />
+        <option value="$PROJECT_DIR$/controllers/api/__init__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="413" />
+    <option name="y" value="238" />
+    <option name="width" value="1392" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../完整源码" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\notebook\static\upload" />
+      <recent name="D:\PycharmProjects\notebook\common\libs" />
+      <recent name="D:\PycharmProjects\notebook\common\libs\member" />
+      <recent name="D:\PycharmProjects\notebook\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <option name="additionalOptions" value="--host=0.0.0.0" />
+      <option name="flaskDebug" value="true" />
+      <module name="notebook" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b1e006a-4e00-4342-ab47-650417431773" name="Default Changelist" comment="" />
+      <created>1554911279594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554911279594</updated>
+      <workItem from="1554911295871" duration="1538000" />
+      <workItem from="1554955818170" duration="5719000" />
+      <workItem from="1554972663281" duration="1445000" />
+      <workItem from="1555072357539" duration="1177000" />
+      <workItem from="1555127076671" duration="597000" />
+      <workItem from="1555128566066" duration="159000" />
+      <workItem from="1555153051573" duration="1169000" />
+      <workItem from="1555154735605" duration="79000" />
+      <workItem from="1555169813432" duration="63000" />
+      <workItem from="1555170201129" duration="1665000" />
+      <workItem from="1555244271688" duration="197000" />
+      <workItem from="1555244475905" duration="10520000" />
+      <workItem from="1555327627193" duration="1421000" />
+      <workItem from="1555411021602" duration="7927000" />
+      <workItem from="1555429738341" duration="2052000" />
+      <workItem from="1555474245280" duration="2146000" />
+      <workItem from="1555496515648" duration="1090000" />
+      <workItem from="1555498029335" duration="1537000" />
+      <workItem from="1555500369325" duration="8038000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48539000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27114967" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20498915" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29826465" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20498915" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/libs/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory_card/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Member.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Oauth_member_bind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#16#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/api/member.py" />
+    <entry file="file://$PROJECT_DIR$/common/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory_card/pages/post/post.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory_card/pages/post/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/upload/test.jpg" />
+    <entry file="file://$PROJECT_DIR$/notebook/static/upload/20190416/5d873156752b4f8f9b7eb91210400657.jpeg" />
+    <entry file="file://$PROJECT_DIR$/static/upload/20190416/4823868bbdc34c3cb598e7f0a28d4303.png" />
+    <entry file="file://$PROJECT_DIR$/common/models/Images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/upload/20190416/8c32bec952044526bc6a1d0cca7c26fa.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory_card/pages/welcome/welcome.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/libs/member/MemberService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory_card/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/api/getToken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/libs/UrlManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/base_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Card.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#16#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/libs/UploadService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/upload/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/upload/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
