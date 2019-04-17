@@ -141,7 +141,7 @@ def noteIndex():
 def cardshow():
     resp = {'code': 200, 'msg': '操作成功~', 'data': {}}
     req = request.values
-    app.logger.info(req)
+    # app.logger.info(req)
     card_id = req['card_id'] if 'card_id' in req else ''
     if not id:
         resp['code'] = -1
@@ -158,6 +158,17 @@ def cardshow():
              }
 
             print(item.card_content)
+    return jsonify(resp)
+
+@route_api.route("/card/study",methods = ["GET","POST"])
+def cardstudy():
+    resp = {'code': 200, 'msg': '操作成功~', 'data': {}}
+    req = request.values
+    app.logger.info(req)
+    card_id = req['card_id'] if 'card_id' in req else ''
+    card = Card.query.filter(Card.id == card_id).first()
+    card.study_status = card.study_status+1
+    db.session.commit()
     return jsonify(resp)
 
 
