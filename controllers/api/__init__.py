@@ -172,6 +172,18 @@ def cardstudy():
     db.session.commit()
     return jsonify(resp)
 
+@route_api.route("/card/delete",methods = ["GET","POST"])
+def carddelete():
+    resp = {'code': 200, 'msg': '操作成功~', 'data': {}}
+    req = request.values
+    app.logger.info(req)
+    card_id = req['id'] if 'id' in req else ''
+    card = Card.query.filter(Card.id == card_id).first()
+    db.session.delete(card)
+    db.session.commit()
+
+    return jsonify(resp)
+
 
 @route_api.route("/upload",methods = [ "GET","POST" ])
 def uploadImage():
