@@ -168,6 +168,7 @@ def cardstudy():
     card_id = req['card_id'] if 'card_id' in req else ''
     card = Card.query.filter(Card.id == card_id).first()
     card.study_status = card.study_status+1
+    card.last_time = getCurrentDate()
     db.session.commit()
     return jsonify(resp)
 
@@ -187,7 +188,6 @@ def uploadImage():
 	if upfile is None:
 		resp['state'] = "上传失败"
 		return jsonify(resp)
-
 
 	ret = UploadService.uploadByFile( upfile,id )
 
@@ -210,15 +210,19 @@ def cardinset():
     card_name = req['name'] if 'name' in req else ''
     card_content = req['content'] if 'content' in req else ''
     fromid = req['fromid'] if 'fromid' in req else ''
+    imagepath = req['image'] if 'image' in req else ''
+
+    content_part1 = " <view class='weui-article__p'style='font-size:40rpx;'>"
+    content_part2 = "</view><view><image  src='"
+    content_part3 = "' mode='widthFix' bindload='imageLoad' data-index='{{index}}' bindtap='previewImg' style='width:{{images[index].width}}rpx; heigth:{{images[index].height}}rpx' /></view>"
 
     # model_card = Card()
     # model_card.member_id = member_id
     # model_card.card_name = card_name
-    # model_card.card_content = "<view class='weui-article__p'>" + card_content + "</view></view><view> <image  src="
+    # model_card.card_content = content_part1+card_content+content_part2+imagepath+content_part3
     # model_card.fromid = fromid
     # db.session.add(model_card)
     # db.session.commit()
-    # a= uploadImage.imagepath
 
 
     return jsonify(resp)

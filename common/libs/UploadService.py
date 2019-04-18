@@ -31,14 +31,14 @@ class UploadService():
 
 		file.save( "{0}/{1}".format( save_dir,file_name ) )
 
-
-		model_image = Image()
-		model_image.file_key = file_dir + "/" + file_name
-		model_image.created_time = getCurrentDate()
-		db.session.add( model_image)
-		db.session.commit()
+		#
+		# model_image = Image()
+		# model_image.file_key =  id + "/" + file_dir + "/" + file_name
+		# model_image.created_time = getCurrentDate()
+		# db.session.add( model_image)
+		# db.session.commit()
 
 		resp['data'] = {
-			'file_key': model_image.file_key
+			'file_key':  id + "/" + file_dir + "/" + file_name
 		}
 		return resp
