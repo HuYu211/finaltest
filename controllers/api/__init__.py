@@ -224,17 +224,17 @@ def cardinset():
     fromid = req['fromid'] if 'fromid' in req else ''
     imagepath = req['image'] if 'image' in req else ''
 
-    content_part1 = " <view class='weui-article__p'style='font-size:40rpx;'>"
-    content_part2 = "</view><view><image  src='"
-    content_part3 = "' mode='widthFix' bindload='imageLoad' data-index='{{index}}' bindtap='previewImg' style='width:{{images[index].width}}rpx; heigth:{{images[index].height}}rpx' /></view>"
+    content_part1 = " <div class='weui-article__p'style='font-size:40rpx;'>&nbsp&nbsp"
+    content_part2 = "<img  src='"
+    content_part3 = "' alt='' mode='aspectFill' bindload='imageLoad' data-index='0' bindtap='previewImg'/></div>"
 
-    # model_card = Card()
-    # model_card.member_id = member_id
-    # model_card.card_name = card_name
-    # model_card.card_content = content_part1+card_content+content_part2+imagepath+content_part3
-    # model_card.fromid = fromid
-    # db.session.add(model_card)
-    # db.session.commit()
+    model_card = Card()
+    model_card.member_id = member_id
+    model_card.card_name = card_name
+    model_card.card_content = content_part1+card_content+content_part2+imagepath+content_part3
+    model_card.fromid = fromid
+    db.session.add(model_card)
+    db.session.commit()
 
 
     return jsonify(resp)

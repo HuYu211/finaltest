@@ -11,8 +11,8 @@ app.register_blueprint(route_getToken,url_prefix='/getToken')
 
 @app.route('/')
 def hello_world():
-    return 'Chen Xi 是只zhuzhu'
+    return 'Chen Xi is zhuzhu'
 
 
 if __name__ == '__main__':
-    app.run( debug=True)
+    app.run( host="0.0.0.0",debug=True)
