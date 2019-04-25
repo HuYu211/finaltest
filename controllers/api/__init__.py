@@ -224,8 +224,8 @@ def cardinset():
     fromid = req['fromid'] if 'fromid' in req else ''
     imagepath = req['image'] if 'image' in req else ''
 
-    content_part1 = " <div class='weui-article__p'style='font-size:40rpx;'>&nbsp&nbsp"
-    content_part2 = "<img  src='"
+    content_part1 = " <div class='weui-article__p'style='font-size:40rpx;'>"
+    content_part2 = "<br/><img  src='"
     content_part3 = "' alt='' mode='aspectFill' bindload='imageLoad' data-index='0' bindtap='previewImg'/></div>"
 
     model_card = Card()
